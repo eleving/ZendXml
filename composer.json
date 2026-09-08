@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zendxml",
+    "name": "eleving/zendxml",
     "description": "Utility library for XML usage, best practices, and security in PHP",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -15,8 +15,11 @@
         "chat": "https://zendframework-slack.herokuapp.com",
         "forum": "https://discourse.zendframework.com/c/questions/components"
     },
+    "replace": {
+         "zendframework/zendxml": "1.2.0"
+    },
     "require": {
-        "php": "^5.6 || ^7.0"
+        "php": "^5.6 || ^7.0 || ^8.1"
     },
     "require-dev": {
         "zendframework/zend-coding-standard": "~1.0.0",
